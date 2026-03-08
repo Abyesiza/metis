@@ -19,7 +19,7 @@ const MetisAnalytics: FC = () => {
       icon: <TrendingUp sx={{ fontSize: 32 }} />,
       title: 'Predictive Analytics',
       description: 'Move beyond "what happened" to "what will happen." Forecasting models built on your data.',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <SmartToy sx={{ fontSize: 32 }} />,
@@ -207,7 +207,7 @@ const MetisAnalytics: FC = () => {
               number="10000"
               label="Daily Dashboards"
               description="Generated & shared"
-              color="#1976d2"
+              color="#737373"
               icon={<Analytics />}
               title="Massive Scale"
               details="Handle thousands of dashboards accessed by thousands of users daily."

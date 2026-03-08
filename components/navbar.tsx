@@ -57,7 +57,7 @@ const navLinks = [
 ];
 
 const products = [
-  { label: 'Metis Database', href: '/products/metis-database', color: '#1976d2' },
+  { label: 'Metis Database', href: '/products/metis-database', color: '#737373' },
   { label: 'Metis Security', href: '/products/metis-security', color: '#dc004e' },
   { label: 'Data Sharing', href: '/products/data-sharing', color: '#00897b' },
   { label: 'Metis Analytics', href: '/products/metis-analytics', color: '#f57c00' },
@@ -108,15 +108,15 @@ const Navbar: FC = () => {
                 href={href}
                 onClick={handleDrawerToggle}
                 sx={{
-                  color: isActive ? '#1976d2' : '#000',
+                  color: isActive ? '#737373' : '#000',
                   fontSize: '0.95rem',
                   fontWeight: 500,
-                  backgroundColor: isActive ? '#1976d210' : 'transparent',
-                  borderLeft: isActive ? '4px solid #1976d2' : 'none',
+                  backgroundColor: isActive ? '#73737310' : 'transparent',
+                  borderLeft: isActive ? '4px solid #737373' : 'none',
                   paddingLeft: isActive ? '12px' : '16px',
                   '&:hover': {
-                    backgroundColor: isActive ? '#1976d210' : '#f0f0f0',
-                    color: '#1976d2',
+                    backgroundColor: isActive ? '#73737310' : '#f0f0f0',
+                    color: '#737373',
                   },
                 }}
               >
@@ -132,17 +132,17 @@ const Navbar: FC = () => {
               <ListItemButton
                 onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
                 sx={{
-                  color: isProductActive ? '#1976d2' : '#000',
+                  color: isProductActive ? '#737373' : '#000',
                   fontSize: '0.95rem',
                   fontWeight: 500,
                   display: 'flex',
                   justifyContent: 'space-between',
-                  backgroundColor: isProductActive ? '#1976d210' : 'transparent',
-                  borderLeft: isProductActive ? '4px solid #1976d2' : 'none',
+                  backgroundColor: isProductActive ? '#73737310' : 'transparent',
+                  borderLeft: isProductActive ? '4px solid #737373' : 'none',
                   paddingLeft: isProductActive ? '12px' : '16px',
                   '&:hover': {
-                    backgroundColor: isProductActive ? '#1976d210' : '#f0f0f0',
-                    color: '#1976d2',
+                    backgroundColor: isProductActive ? '#73737310' : '#f0f0f0',
+                    color: '#737373',
                   },
                 }}
               >
@@ -170,14 +170,14 @@ const Navbar: FC = () => {
                   onClick={handleDrawerToggle}
                   sx={{
                     pl: 4,
-                    color: isActive ? '#1976d2' : '#666',
+                    color: isActive ? '#737373' : '#666',
                     fontSize: '0.9rem',
                     fontWeight: 500,
-                    backgroundColor: isActive ? '#1976d210' : 'transparent',
-                    borderLeft: isActive ? '4px solid #1976d2' : 'none',
+                    backgroundColor: isActive ? '#73737310' : 'transparent',
+                    borderLeft: isActive ? '4px solid #737373' : 'none',
                     '&:hover': {
-                      backgroundColor: isActive ? '#1976d210' : '#f0f0f0',
-                      color: '#1976d2',
+                      backgroundColor: isActive ? '#73737310' : '#f0f0f0',
+                      color: '#737373',
                     },
                   }}
                 >
@@ -196,15 +196,15 @@ const Navbar: FC = () => {
                 href="/contact"
                 onClick={handleDrawerToggle}
                 sx={{
-                  color: isActive ? '#1976d2' : '#000',
+                  color: isActive ? '#737373' : '#000',
                   fontSize: '0.95rem',
                   fontWeight: 500,
-                  backgroundColor: isActive ? '#1976d210' : 'transparent',
-                  borderLeft: isActive ? '4px solid #1976d2' : 'none',
+                  backgroundColor: isActive ? '#73737310' : 'transparent',
+                  borderLeft: isActive ? '4px solid #737373' : 'none',
                   paddingLeft: isActive ? '12px' : '16px',
                   '&:hover': {
-                    backgroundColor: isActive ? '#1976d210' : '#f0f0f0',
-                    color: '#1976d2',
+                    backgroundColor: isActive ? '#73737310' : '#f0f0f0',
+                    color: '#737373',
                   },
                 }}
               >
@@ -263,20 +263,20 @@ const Navbar: FC = () => {
                 component={Link}
                 href={href}
                 sx={{
-                  color: isActive ? '#1976d2' : '#000',
+                  color: isActive ? '#737373' : '#000',
                   textDecoration: 'none',
                   fontWeight: 500,
                   fontSize: '0.95rem',
                   position: 'relative',
                   transition: 'all 0.3s ease',
                   ...(isActive && {
-                    border: '2px solid #1976d2',
+                    border: '2px solid #737373',
                     borderRadius: '8px',
                     px: 1.5,
                     py: 0.5,
                   }),
                   '&:hover': {
-                    color: '#1976d2',
+                    color: '#737373',
                     '&::after': {
                       width: isActive ? '0%' : '100%',
                     },
@@ -288,7 +288,7 @@ const Navbar: FC = () => {
                     left: 0,
                     width: 0,
                     height: 2,
-                    backgroundColor: '#1976d2',
+                    backgroundColor: '#737373',
                     transition: 'width 0.3s ease',
                   },
                 }}
@@ -306,7 +306,7 @@ const Navbar: FC = () => {
                 <Box
                   onClick={handleProductsClick}
                   sx={{
-                    color: isProductActive ? '#1976d2' : '#000',
+                    color: isProductActive ? '#737373' : '#000',
                     textDecoration: 'none',
                     fontWeight: 500,
                     fontSize: '0.95rem',
@@ -317,13 +317,13 @@ const Navbar: FC = () => {
                     cursor: 'pointer',
                     transition: 'all 0.3s ease',
                     ...(isProductActive && {
-                      border: '2px solid #1976d2',
+                      border: '2px solid #737373',
                       borderRadius: '8px',
                       px: 1.5,
                       py: 0.5,
                     }),
                     '&:hover': {
-                      color: '#1976d2',
+                      color: '#737373',
                       '&::after': {
                         width: isProductActive ? '0%' : '100%',
                       },
@@ -335,7 +335,7 @@ const Navbar: FC = () => {
                       left: 0,
                       width: 0,
                       height: 2,
-                      backgroundColor: '#1976d2',
+                      backgroundColor: '#737373',
                       transition: 'width 0.3s ease',
                     },
                   }}
@@ -410,20 +410,20 @@ const Navbar: FC = () => {
             sx={(() => {
               const isActive = pathname === '/contact';
               return {
-                color: isActive ? '#1976d2' : '#000',
+                color: isActive ? '#737373' : '#000',
                 textDecoration: 'none',
                 fontWeight: 500,
                 fontSize: '0.95rem',
                 position: 'relative',
                 transition: 'all 0.3s ease',
                 ...(isActive && {
-                  border: '2px solid #1976d2',
+                  border: '2px solid #737373',
                   borderRadius: '8px',
                   px: 1.5,
                   py: 0.5,
                 }),
                 '&:hover': {
-                  color: '#1976d2',
+                  color: '#737373',
                   '&::after': {
                     width: isActive ? '0%' : '100%',
                   },
@@ -435,7 +435,7 @@ const Navbar: FC = () => {
                   left: 0,
                   width: 0,
                   height: 2,
-                  backgroundColor: '#1976d2',
+                  backgroundColor: '#737373',
                   transition: 'width 0.3s ease',
                 },
               };

@@ -29,7 +29,7 @@ const FeatureCard: FC<FeatureCardProps> = ({
   icon,
   title,
   description,
-  color = '#1976d2',
+  color = '#737373',
   href,
 }) => {
   const content = (

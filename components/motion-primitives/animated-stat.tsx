@@ -20,7 +20,7 @@ export function AnimatedStat({
   label,
   icon,
   className = '',
-  color = '#1976d2',
+  color = '#737373',
   springOptions = {
     bounce: 0,
     duration: 2000,

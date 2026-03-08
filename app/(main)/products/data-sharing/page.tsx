@@ -19,7 +19,7 @@ const DataSharing: FC = () => {
       icon: <Visibility sx={{ fontSize: 32 }} />,
       title: 'Transparent Access',
       description: 'Full audit trail of who accessed what, when, and why. Never wonder about data access again.',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <VerifiedUser sx={{ fontSize: 32 }} />,
@@ -173,7 +173,7 @@ const DataSharing: FC = () => {
                 number="100"
                 label="Audit Trail Logs"
                 description="%"
-                color="#1976d2"
+                color="#737373"
                 icon={<Visibility />}
                 title="Full Transparency"
                 details="Every access is logged and traceable. Complete audit history for compliance."

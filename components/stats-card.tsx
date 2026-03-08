@@ -39,7 +39,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
   subtitle,
   details,
   features,
-  color = '#1976d2',
+  color = '#737373',
   cta,
 }) => {
   const displayTitle = title || label;

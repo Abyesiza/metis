@@ -13,7 +13,7 @@ const Contact: FC = () => {
       icon: <Email sx={{ fontSize: 28 }} />,
       title: 'Email',
       value: 'hello@metis.com',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <Phone sx={{ fontSize: 28 }} />,
@@ -181,7 +181,7 @@ const Contact: FC = () => {
                 icon={<People />}
                 title="Growing Community"
                 description="Join hundreds of organizations transforming their data infrastructure with Metis."
-                color="#1976d2"
+                color="#737373"
               />
             </Grid>
             <Grid size={{ xs: 12, sm: 6, md: 3 }}>

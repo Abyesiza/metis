@@ -46,7 +46,7 @@ const Home: FC = () => {
       icon: <Storage sx={{ fontSize: 40 }} />,
       title: 'Data Infrastructure',
       description: 'Centralized data platforms, cloud architectures, and integration pipelines that unify your institutional data.',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <AnalyticsOutlined sx={{ fontSize: 40 }} />,
@@ -110,7 +110,7 @@ const Home: FC = () => {
                   number={stat.number}
                   label={stat.label}
                   icon={stat.icon}
-                  color={['#1976d2', '#dc004e', '#00897b', '#f57c00'][index]}
+                  color={['#737373', '#dc004e', '#00897b', '#f57c00'][index]}
                 />
               </Grid>
             ))}
@@ -175,7 +175,7 @@ const Home: FC = () => {
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                 <Box>
-                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     Single Source of Truth
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666', lineHeight: 1.8 }}>
@@ -183,7 +183,7 @@ const Home: FC = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     From Viewing to Acting
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666', lineHeight: 1.8 }}>
@@ -191,7 +191,7 @@ const Home: FC = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     Data Trusted & Secured
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666', lineHeight: 1.8 }}>
@@ -255,7 +255,7 @@ const Home: FC = () => {
           <Grid container spacing={4}>
             <Grid size={{ xs: 12, sm: 6, md: 3 }}>
               <Box sx={{ textAlign: 'center' }}>
-                <Typography sx={{ fontSize: '2.5rem', fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                <Typography sx={{ fontSize: '2.5rem', fontWeight: 700, color: '#737373', mb: 1 }}>
                   20%
                 </Typography>
                 <Typography variant="body2" sx={{ color: '#666' }}>

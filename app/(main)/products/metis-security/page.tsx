@@ -19,7 +19,7 @@ const MetisSecurity: FC = () => {
       icon: <VerifiedUser sx={{ fontSize: 32 }} />,
       title: 'Role-Based Access Control',
       description: 'Define granular permissions down to the field level. Who sees what, is entirely up to you.',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <Assessment sx={{ fontSize: 32 }} />,
@@ -155,7 +155,7 @@ const MetisSecurity: FC = () => {
               <Grid size={{ xs: 12, md: 6, lg: 3 }} key={index}>
                 <Card sx={{ p: 3, textAlign: 'center', borderRadius: '12px' }}>
                   <CardContent sx={{ p: 0 }}>
-                    <Typography variant="h6" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                    <Typography variant="h6" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                       {item.standard}
                     </Typography>
                     <Typography variant="body2" sx={{ color: '#666' }}>
@@ -196,7 +196,7 @@ const MetisSecurity: FC = () => {
               number="4"
               label="Compliance Standards"
               description="Certified"
-              color="#1976d2"
+              color="#737373"
               icon={<SecurityOutlined />}
               title="Fully Compliant"
               details="GDPR, HIPAA, SOC 2, ISO 27001 certified. Ready for regulated industries."

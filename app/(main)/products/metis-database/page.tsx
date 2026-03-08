@@ -13,7 +13,7 @@ const MerisDatabase: FC = () => {
       icon: <Storage sx={{ fontSize: 32 }} />,
       title: 'Centralized Data Repository',
       description: 'One source of truth for all institutional data. Metis Database consolidates data from multiple systems into a unified, queryable platform.',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <FlashOn sx={{ fontSize: 32 }} />,
@@ -80,26 +80,26 @@ const MerisDatabase: FC = () => {
             </Box>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
-            <Box sx={{ backgroundColor: '#f5f9ff', p: 4, borderRadius: '12px', border: '2px solid #1976d2' }}>
-              <Typography variant="h6" sx={{ fontWeight: 700, color: '#1976d2', mb: 3 }}>
+            <Box sx={{ backgroundColor: '#f5f9ff', p: 4, borderRadius: '12px', border: '2px solid #737373' }}>
+              <Typography variant="h6" sx={{ fontWeight: 700, color: '#737373', mb: 3 }}>
                 Key Metrics
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', pb: 1, borderBottom: '1px solid #e0e0e0' }}>
                   <Typography variant="body2" sx={{ color: '#666' }}>Query Response Time</Typography>
-                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#1976d2' }}>&lt; 500ms</Typography>
+                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#737373' }}>&lt; 500ms</Typography>
                 </Box>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', pb: 1, borderBottom: '1px solid #e0e0e0' }}>
                   <Typography variant="body2" sx={{ color: '#666' }}>Data Sync Frequency</Typography>
-                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#1976d2' }}>Real-time</Typography>
+                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#737373' }}>Real-time</Typography>
                 </Box>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', pb: 1, borderBottom: '1px solid #e0e0e0' }}>
                   <Typography variant="body2" sx={{ color: '#666' }}>Uptime SLA</Typography>
-                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#1976d2' }}>99.99%</Typography>
+                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#737373' }}>99.99%</Typography>
                 </Box>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Typography variant="body2" sx={{ color: '#666' }}>Max Dataset Size</Typography>
-                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#1976d2' }}>Petabyte+</Typography>
+                  <Typography variant="body2" sx={{ fontWeight: 700, color: '#737373' }}>Petabyte+</Typography>
                 </Box>
               </Box>
             </Box>
@@ -147,7 +147,7 @@ const MerisDatabase: FC = () => {
             <Grid size={{ xs: 12, md: 6 }} key={index}>
               <Card sx={{ p: 3, borderRadius: '12px', border: '1px solid #e0e0e0' }}>
                 <CardContent sx={{ p: 0 }}>
-                  <Typography variant="h6" sx={{ fontWeight: 700, color: '#1976d2', mb: 2 }}>
+                  <Typography variant="h6" sx={{ fontWeight: 700, color: '#737373', mb: 2 }}>
                     {useCase.title}
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666', lineHeight: 1.8 }}>
@@ -175,7 +175,7 @@ const MerisDatabase: FC = () => {
             <Grid size={{ xs: 12, sm: 6, md: 3 }}>
               <StatsCard
                 label="Query Response Time"
-                color="#1976d2"
+                color="#737373"
                 icon={<FlashOn />}
                 title="Sub-500ms"
                 details="Even complex queries on terabyte-scale datasets execute in under 500 milliseconds."

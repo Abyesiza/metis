@@ -21,7 +21,7 @@ const Products: FC = () => {
         'Scalable architecture',
         'Advanced query optimization',
       ],
-      color: '#1976d2',
+      color: '#737373',
       link: '/products/metis-database',
     },
     {
@@ -129,7 +129,7 @@ const Products: FC = () => {
           <Grid container spacing={4}>
             <Grid size={{ xs: 12, md: 6 }}>
               <Box sx={{ p: 3, backgroundColor: '#fff', borderRadius: '12px', border: '1px solid #e0e0e0' }}>
-                <Typography variant="h6" sx={{ fontWeight: 700, color: '#1976d2', mb: 2 }}>
+                <Typography variant="h6" sx={{ fontWeight: 700, color: '#737373', mb: 2 }}>
                   🎯 Architecture
                 </Typography>
                 <Typography variant="body2" sx={{ color: '#666', lineHeight: 1.8 }}>

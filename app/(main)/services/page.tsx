@@ -220,7 +220,7 @@ const Services: FC = () => {
               p: 4,
               borderRadius: '12px',
               border: `2px solid ${layer.color}`,
-              backgroundColor: layer.color === '#1976d2' ? '#f5f9ff' : layer.color === '#dc004e' ? '#fff5f8' : layer.color === '#00897b' ? '#f5fff8' : '#fffaf5',
+              backgroundColor: layer.color === '#737373' ? '#f5f9ff' : layer.color === '#dc004e' ? '#fff5f8' : layer.color === '#00897b' ? '#f5fff8' : '#fffaf5',
             }}
           >
             <Grid container spacing={3} sx={{ alignItems: 'flex-start' }}>
@@ -346,7 +346,7 @@ const Services: FC = () => {
                   variant="h4"
                   sx={{
                     fontWeight: 700,
-                    color: '#1976d2',
+                    color: '#737373',
                     mb: 2,
                   }}
                 >

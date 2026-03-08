@@ -48,8 +48,8 @@ const NavbarSearchButton: FC = () => {
           style={{
             overflow: 'hidden',
             borderRadius: '8px',
-            border: '1px solid rgba(25, 118, 210, 0.2)',
-            backgroundColor: 'rgba(25, 118, 210, 0.05)',
+            border: '1px solid rgba(115, 115, 115, 0.2)',
+            backgroundColor: 'rgba(115, 115, 115, 0.05)',
             padding: '2px',
           }}
         >
@@ -61,9 +61,9 @@ const NavbarSearchButton: FC = () => {
                 sx={{
                   width: '32px',
                   height: '32px',
-                  color: '#1976d2',
+                  color: '#737373',
                   '&:hover': {
-                    backgroundColor: 'rgba(25, 118, 210, 0.1)',
+                    backgroundColor: 'rgba(115, 115, 115, 0.1)',
                   },
                 }}
               >
@@ -108,7 +108,7 @@ const NavbarSearchButton: FC = () => {
                   sx={{
                     width: '32px',
                     height: '32px',
-                    color: '#1976d2',
+                    color: '#737373',
                     '&:hover': {
                       backgroundColor: 'rgba(25, 118, 210, 0.1)',
                     },

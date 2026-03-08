@@ -13,7 +13,7 @@ const About: FC = () => {
       icon: <VerifiedUser sx={{ fontSize: 32 }} />,
       title: 'Data Custodianship',
       description: 'We take responsibility for your institutional data. It\'s protected, structured, and evolves with your needs.',
-      color: '#1976d2',
+      color: '#737373',
     },
     {
       icon: <Lightbulb sx={{ fontSize: 32 }} />,
@@ -101,7 +101,7 @@ const About: FC = () => {
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5 }}>
                 <Box>
-                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     Not a BI Shop
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666' }}>
@@ -109,7 +109,7 @@ const About: FC = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     Not a Cloud Reseller
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666' }}>
@@ -117,7 +117,7 @@ const About: FC = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     The Trusted Point of Contact
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666' }}>
@@ -186,7 +186,7 @@ const About: FC = () => {
                 label={item.phase}
                 description={item.description}
                 features={item.items}
-                color={['#1976d2', '#dc004e', '#00897b'][index]}
+                color={['#737373', '#dc004e', '#00897b'][index]}
               />
             </Grid>
           ))}
@@ -206,7 +206,7 @@ const About: FC = () => {
             <Grid container spacing={3} sx={{ maxWidth: '900px', mx: 'auto' }}>
               <Grid size={{ xs: 12, md: 4 }}>
                 <Box>
-                  <Typography variant="h6" sx={{ fontWeight: 700, color: '#1976d2', mb: 1 }}>
+                  <Typography variant="h6" sx={{ fontWeight: 700, color: '#737373', mb: 1 }}>
                     Secure by Design
                   </Typography>
                   <Typography variant="body2" sx={{ color: '#666' }}>
