@@ -85,7 +85,7 @@ const Navbar: FC = () => {
   };
 
   const drawer = (
-    <Box sx={{ p: 2, maxWidth: '300px' }}>
+    <Box sx={{ p: 2, width: '100%' }}>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3, gap: 1 }}>
         <Typography variant="h6" sx={{ fontWeight: 700 }}>
           Metis
